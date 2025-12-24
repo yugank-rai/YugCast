@@ -59,8 +59,8 @@ If you want to test this on your own machine:
 * **Email:** [yugankrai.smn@gmail.com](mailto:yugankrai.smn@gmail.com)
 * **GitHub:** [@yugank-rai](https://github.com/yugank-rai)
 * **LinkedIn:** [Yugank Rai](https://www.linkedin.com/in/contactyugankrai)
+  
   ---
-
 ## 📄 License
 This project is open source and available under the **MIT License**.
 
