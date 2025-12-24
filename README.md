@@ -10,6 +10,12 @@ While my other repositories track my coding journey, **YugCast** is where I put 
 
 ---
 
+## 🔗 Live Demo
+
+### 👉 [Click here to use YugCast Live](https://yugcast.vercel.app/)
+
+---
+
 ## 🚀 About The Project
 
 **YugCast** is a responsive web application that provides real-time weather updates for any city in the world. It connects to the OpenWeatherMap API to fetch live data including temperature, humidity, and wind conditions.
@@ -36,7 +42,7 @@ This project was built to solidify my understanding of the following concepts:
 
 ## ⚡ How to Run Locally
 
-If you want to test this on your own machine:
+If you want to test this on your own machine instead of the live site:
 
 1.  **Clone the repo:**
     ```bash
@@ -49,8 +55,6 @@ If you want to test this on your own machine:
 3.  **Launch:**
     Simply open the `index.html` file in your browser.
 
-*(Note: You may need to add your own OpenWeatherMap API key in `script.js` if the current one hits the rate limit.)*
-
 ---
 
 ## 📬 Connect with Me
@@ -59,12 +63,8 @@ If you want to test this on your own machine:
 * **Email:** [yugankrai.smn@gmail.com](mailto:yugankrai.smn@gmail.com)
 * **GitHub:** [@yugank-rai](https://github.com/yugank-rai)
 * **LinkedIn:** [Yugank Rai](https://www.linkedin.com/in/contactyugankrai)
-  
-  ---
-## 📄 License
-This project is open source and available under the **MIT License**.
-
-  
 
 ---
 
+## 📄 License
+This project is open source and available under the **MIT License**.
