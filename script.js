@@ -1,4 +1,4 @@
-// Vite uses this special syntax to hide keys
+
 const apikey = import.meta.env.VITE_WEATHER_API_KEY;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -20,7 +20,7 @@ async function checkWeather(city) {
             document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
             document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-            // Update Image
+            
             weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`;
             
             document.querySelector(".weather").style.display = "block";
