@@ -1,0 +1,93 @@
+/* Reset & Fonts */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background-color: #0f172a; /* Dark Navy Background */
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    background: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+}
+
+.logo {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.highlight { color: #8b5cf6; /* Purple Accent */ }
+
+button#addTaskBtn {
+    background: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button#addTaskBtn:hover { background: #7c3aed; }
+
+/* Board Layout */
+.board {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    height: 100%;
+    overflow-x: auto; /* Scroll sideways on small screens */
+}
+
+/* Column Styling */
+.column {
+    background: #1e293b;
+    min-width: 300px;
+    flex: 1; /* Columns stretch to fill space */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #334155;
+}
+
+.column-header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+    background: #0f172a; /* Slightly darker header */
+    border-radius: 10px 10px 0 0;
+}
+
+.column-header h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.count {
+    background: #64748b;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Task List Area */
+.task-list {
+    padding: 1rem;
+    flex-grow: 1;
+    overflow-y: auto; /* Scroll vertically if many tasks */
+}
